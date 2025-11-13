@@ -1,0 +1,38 @@
+Control Flow Operations:
+NOP
+HALT
+
+JMP-CON reg1 reg2
+JMP-NCO reg1
+CON = Conditional
+NCO = No Conditional
+
+
+ALU OPCODES:
+ADD reg1 reg2 reg3
+SUB reg1 reg2 reg3
+MUL reg1 reg2 reg3
+DIV reg1 reg2 reg3
+AND reg1 reg2 reg3
+OR reg1 reg2 reg3
+XOR reg1 reg2 reg3
+NOT reg1 reg2 reg3
+
+
+REGISTERS OPCODES:
+REG-SET reg1 value
+REG-CP reg1 reg2
+
+
+RAM OPCODES:
+RAM-SET reg1 reg2
+RAM-SET Addresses value
+
+RAM-GET reg1 reg2
+RAM-GET Direccion output-register
+
+
+GPU OPCODES:
+GPU-PRINT reg1 reg2
+GPU-PRINT ASCII color-code
+# the color code can be FF00FF (magenta) for example
