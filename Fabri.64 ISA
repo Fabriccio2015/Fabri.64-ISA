@@ -29,7 +29,7 @@ RAM-SET reg1 reg2
 RAM-SET Addresses value
 
 RAM-GET reg1 reg2
-RAM-GET Direccion output-register
+RAM-GET Addresses output-register
 
 
 GPU OPCODES:
