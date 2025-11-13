@@ -30,9 +30,3 @@ RAM-SET Addresses value
 
 RAM-GET reg1 reg2
 RAM-GET Addresses output-register
-
-
-GPU OPCODES:
-GPU-PRINT reg1 reg2
-GPU-PRINT ASCII color-code
-# the color code can be FF00FF (magenta) for example
