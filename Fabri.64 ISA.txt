@@ -1,7 +1,7 @@
 Control Flow Operations:
 NOP
 HALT
-JMP <Flag reg> <Reg2>
+JMP <Flag Reg> <Reg2>
 
 ALU OPCODES:
 ADD <reg1> <reg2> <regOut>
@@ -11,7 +11,7 @@ DIV <reg1> <reg2> <regOut>
 AND <reg1> <reg2> <regOut>
 OR <reg1> <reg2> <regOut>
 XOR <reg1> <reg2> <regOut>
-NOT <reg1> <reg2> <regOut>
+NOT <reg1> <regOut>
 
 
 REGISTERS OPCODES:
