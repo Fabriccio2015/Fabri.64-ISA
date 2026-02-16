@@ -1,24 +1,24 @@
 Control Flow Operations:
-NOP
-HALT
-JMP <Flag Reg> <Reg2>
+0000: NOP
+0001: HALT
+0010: JMP <Flag Reg> <Reg2>
 
 ALU OPCODES:
-ADD <reg1> <reg2> <regOut>
-SUB <reg1> <reg2> <regOut>
-MUL <reg1> <reg2> <regOut>
-DIV <reg1> <reg2> <regOut>
-AND <reg1> <reg2> <regOut>
-OR <reg1> <reg2> <regOut>
-XOR <reg1> <reg2> <regOut>
-NOT <reg1> <regOut>
+0011: ADD <reg1> <reg2> <regOut>
+0100: SUB <reg1> <reg2> <regOut>
+0101: MUL <reg1> <reg2> <regOut>
+0110: DIV <reg1> <reg2> <regOut>
+0111: AND <reg1> <reg2> <regOut>
+1000: OR <reg1> <reg2> <regOut>
+1001: XOR <reg1> <reg2> <regOut>
+1010: NOT <reg1> <regOut>
 
 
 REGISTERS OPCODES:
-REG-SET <reg1> <value>
-REG-CP <reg1> <output-register>
+1011: REG-SET <reg1> <value>
+1100: REG-CP <reg1> <output-register>
 
 
 RAM OPCODES:
-RAM-SET <Addresses reg> <value reg>
-RAM-GET <Addresses reg> <output-register>
+1101: RAM-SET <Addresses reg> <value reg>
+1110: RAM-GET <Addresses reg> <output-register>
